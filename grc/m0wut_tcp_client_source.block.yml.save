@@ -1,0 +1,27 @@
+id: m0wut_tcp_client_source
+label: TCP Client Source
+category: '[M0WUT]'
+
+templates:
+  imports: from gnuradio import m0wut
+  make: m0wut.tcp_client_source(${addr}, ${port}, ${packet_size})
+
+parameters:
+- id: addr
+  label: Remote IP Address
+  default: '127.0.0.1'
+  dtype: string
+- id: port
+  label: Port
+  default: ' 8080'
+  dtype: int
+- id: packet_size
+  label: Packet Size
+  default: '1024'
+  dtype: int
+outputs:
+- label: out
+  domain: stream
+  dtype: real
+  multiplicity: packet_size
+file_format: 1

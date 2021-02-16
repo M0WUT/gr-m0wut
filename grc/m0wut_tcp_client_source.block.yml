@@ -1,0 +1,25 @@
+id: m0wut_tcp_client_source
+label: tcp client source
+category: '[M0WUT]'
+templates:
+  imports: import m0wut
+  make: m0wut.tcp_client_source(${addr}, ${pot}, ${packetSize})
+parameters:
+- id: addr
+  label: Server IP Address
+  default: '"127.0.0.1"'
+  dtype: string
+- id: pot
+  label: Port
+  default: '8080'
+  dtype: int
+- id: packetSize
+  label: Packetsize
+  default: '1024'
+  dtype: int
+outputs:
+- label: out
+  domain: stream
+  dtype: int
+  vlen: ${ packetSize }
+file_format: 1

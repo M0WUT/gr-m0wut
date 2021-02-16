@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1m0wut_1_1tcp__client__source" kind="class" language="C++" prot="public">
+    <compoundname>gr::m0wut::tcp_client_source</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="tcp__client__source_8h" local="no">tcp_client_source.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1m0wut_1_1tcp__client__source_1a08fa48ec0d746a6a28402ee8bddfd5bb" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1m0wut_1_1tcp__client__source" kindref="compound">tcp_client_source</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;tcp_client_source&gt; gr::m0wut::tcp_client_source::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dan/GNU_Radio/M0WUT/gr-m0wut/include/m0wut/tcp_client_source.h" line="38" column="1" bodyfile="/home/dan/GNU_Radio/M0WUT/gr-m0wut/include/m0wut/tcp_client_source.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1m0wut_1_1tcp__client__source_1a4d117fb2e48c748925fbb2992f52f384" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1m0wut_1_1tcp__client__source_1a08fa48ec0d746a6a28402ee8bddfd5bb" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::m0wut::tcp_client_source::make</definition>
+        <argsstring>(std::string addr=&quot;127.0.0.1&quot;, int pot=8080, int packetSize=1024)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::string</type>
+          <declname>addr</declname>
+          <defval>&quot;127.0.0.1&quot;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pot</declname>
+          <defval>8080</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>packetSize</declname>
+          <defval>1024</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1m0wut_1_1tcp__client__source" kindref="compound">m0wut::tcp_client_source</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1m0wut_1_1tcp__client__source" kindref="compound">m0wut::tcp_client_source</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1m0wut_1_1tcp__client__source_1a4d117fb2e48c748925fbb2992f52f384" kindref="member">m0wut::tcp_client_source::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dan/GNU_Radio/M0WUT/gr-m0wut/include/m0wut/tcp_client_source.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::m0wut::tcp_client_source</label>
+        <link refid="classgr_1_1m0wut_1_1tcp__client__source"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::m0wut::tcp_client_source</label>
+        <link refid="classgr_1_1m0wut_1_1tcp__client__source"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dan/GNU_Radio/M0WUT/gr-m0wut/include/m0wut/tcp_client_source.h" line="36" column="1" bodyfile="/home/dan/GNU_Radio/M0WUT/gr-m0wut/include/m0wut/tcp_client_source.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1m0wut_1_1tcp__client__source_1a4d117fb2e48c748925fbb2992f52f384" prot="public" virt="non-virtual"><scope>gr::m0wut::tcp_client_source</scope><name>make</name></member>
+      <member refid="classgr_1_1m0wut_1_1tcp__client__source_1a08fa48ec0d746a6a28402ee8bddfd5bb" prot="public" virt="non-virtual"><scope>gr::m0wut::tcp_client_source</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

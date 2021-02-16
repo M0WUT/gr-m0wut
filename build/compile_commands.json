@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/dan/GNU_Radio/M0WUT/gr-m0wut/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_m0wut_EXPORTS -I/home/dan/GNU_Radio/M0WUT/gr-m0wut/lib/../include -isystem /usr/local/include  -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-m0wut.dir/tcp_client_source_impl.cc.o -c /home/dan/GNU_Radio/M0WUT/gr-m0wut/lib/tcp_client_source_impl.cc",
+  "file": "/home/dan/GNU_Radio/M0WUT/gr-m0wut/lib/tcp_client_source_impl.cc"
+},
+{
+  "directory": "/home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/_m0wut_swig_doc_tag.dir/_m0wut_swig_doc_tag.cpp.o -c /home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig/_m0wut_swig_doc_tag.cpp",
+  "file": "/home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig/_m0wut_swig_doc_tag.cpp"
+},
+{
+  "directory": "/home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dm0wut_swig_EXPORTS -I/home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig -I/home/dan/GNU_Radio/M0WUT/gr-m0wut/swig -I/usr/local/include/gnuradio/swig -isystem /usr/include/python3.6m -isystem /usr/local/include -I/home/dan/GNU_Radio/M0WUT/gr-m0wut/lib/../include  -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/m0wut_swig.dir/CMakeFiles/m0wut_swig.dir/m0wut_swigPYTHON_wrap.cxx.o -c /home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig/CMakeFiles/m0wut_swig.dir/m0wut_swigPYTHON_wrap.cxx",
+  "file": "/home/dan/GNU_Radio/M0WUT/gr-m0wut/build/swig/CMakeFiles/m0wut_swig.dir/m0wut_swigPYTHON_wrap.cxx"
+}
+]

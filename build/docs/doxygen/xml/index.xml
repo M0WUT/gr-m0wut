@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1m0wut_1_1tcp__client__source" kind="class"><name>gr::m0wut::tcp_client_source</name>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source_1a08fa48ec0d746a6a28402ee8bddfd5bb" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source_1a4d117fb2e48c748925fbb2992f52f384" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1m0wut_1_1tcp__client__source__impl" kind="class"><name>gr::m0wut::tcp_client_source_impl</name>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source__impl_1a77c1a4a4bdfbbe00926dad5cfc532b82" kind="variable"><name>port</name></member>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source__impl_1aa0d82d11fecdfd6807c77ccf0d2f4a59" kind="variable"><name>packetSize</name></member>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source__impl_1a89955c80b4f1f4bccf98d4c61e329fa3" kind="variable"><name>sock</name></member>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source__impl_1aa6713f8c39847fa6afe0d521a1b0e975" kind="function"><name>tcp_client_source_impl</name></member>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source__impl_1acc245cb773a43aebb2d8c80fcb8bfdf2" kind="function"><name>~tcp_client_source_impl</name></member>
+    <member refid="classgr_1_1m0wut_1_1tcp__client__source__impl_1ace32f49995309af1a545e7fa9062fbd5" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1m0wut" kind="namespace"><name>gr::m0wut</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a2a0dd2cdf0eee694adee19fccebf5146" kind="define"><name>M0WUT_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="tcp__client__source_8h" kind="file"><name>tcp_client_source.h</name>
+  </compound>
+  <compound refid="tcp__client__source__impl_8h" kind="file"><name>tcp_client_source_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_e30b5a89f418d7ed090da53165f33916" kind="dir"><name>m0wut</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

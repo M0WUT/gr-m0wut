@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="tcp__client__source__impl_8h" kind="file" language="C++">
+    <compoundname>tcp_client_source_impl.h</compoundname>
+    <includes refid="tcp__client__source_8h" local="no">m0wut/tcp_client_source.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">sys/socket.h</includes>
+    <includes local="no">arpa/inet.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="no">errno.h</includes>
+    <incdepgraph>
+      <node id="22">
+        <label>arpa/inet.h</label>
+      </node>
+      <node id="26">
+        <label>assert.h</label>
+      </node>
+      <node id="27">
+        <label>errno.h</label>
+      </node>
+      <node id="19">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="15">
+        <label>tcp_client_source_impl.h</label>
+        <link refid="tcp__client__source__impl_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="17">
+        <label>m0wut/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>m0wut/tcp_client_source.h</label>
+        <link refid="tcp__client__source_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>string.h</label>
+      </node>
+      <node id="23">
+        <label>unistd.h</label>
+      </node>
+      <node id="25">
+        <label>time.h</label>
+      </node>
+      <node id="21">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="20">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1m0wut_1_1tcp__client__source__impl" prot="public">gr::m0wut::tcp_client_source_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1m0wut">gr::m0wut</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dan/GNU_Radio/M0WUT/gr-m0wut/lib/tcp_client_source_impl.h"/>
+  </compounddef>
+</doxygen>
